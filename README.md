@@ -15,11 +15,16 @@ insertArray() method: It prompts the user to enter the size of an array, and the
 The BufferReader reads the input as a string, seperates the string into an array using whitespaces, then parses each element of the array as a double, thus returning an array of doubles.
 
 <h3>3) Calculator class</h3>
+
 This class contains three methods for performing operations:
 
 performAddition(double[] numbers) method: Performs the addition operation on the two numbers passed to it through the numbers array, then returns it in the result array.
+
 performSubtraction(double[] numbers) method: Performs the subtraction operation on the two numbers passed to it through the numbers array, then returns it in the result array.
+
 performMultiplication(double[] numbers) method: Performs the multiplication operation on the two numbers passed to it through the numbers array, then returns it in the result array.
+
 performDivision(double[] numbers) method: Performs the division operation on the two numbers passed to it through the numbers array, then returns it in the result array.
+
 performArrayoperations(double[] numbers) method: Calculates the sum, mean, and standard deviation of the elements in the array passed to it through the numbers array, then returns all three in the result array.
 
